@@ -55,11 +55,11 @@
             // |       |  F7  |  F8  |  F9  |  F10 |  F11  |  F12  |   #   |   \  | PGUP |  PGDN |       |
             // |       |      |      |      |      | SHIFT |       |       | NEXT | VOL- |  VOL+ | PLAY  |
             bindings = <
-   &kp F1     &kp F2         &kp F3        &kp F4        &kp F5         &kp F6      &kp F7      &kp F8    &kp F9     &kp F10    &kp F11     &kp F12   
-   &kp PSCRN  &kp LS(EQUAL)  &kp LS(N1)    &kp EQUAL     &kp LS(MINUS)  &kp GRAVE   &kp RA(Q)   &kp SQT   &kp BSLH   &LS(SQT)   &LS(BSLH)   &trans
-   &trans     &kp LS(N7)     &kp RA(MINUS) &kp MINUS     &kp RA(RBKT)   &kp LS(N3)  &kp LS(N4)  &kp HOME  &kp END    &kp PG_UP  &kp PG_DN   &trans
-   &trans     &kp LS(GRAVE)  &kp LS(N2)    &kp LS(LBKT)  &kp RA(GRAVE)  &kp LS(N5)  &kp LS(N6)  &trans    &trans     &trans     &trans      &trans
-   &trans     &trans         &trans        &trans        &mo 3          &trans      &trans      &trans    &trans     &trans     &trans      &trans   
+    &kp EQUAL       &kp N1   &kp N2   &kp N3    &kp N4   &kp N5    &kp N6     &kp N7  &kp N8           &kp N9    &kp N0    &kp DEL
+   &kp TAB         &kp Q    &kp W    &kp E     &kp R    &kp T     &kp Y      &kp U   &kp I            &kp O     &kp P     &kp LBKT
+   &kp GRAVE       &kp A    &kp S    &kp D     &kp F    &kp G     &kp H      &kp J   &kp K            &kp L     &kp SEMI  &kp RET
+   &mt LSHFT CLCK  &kp Z    &kp X    &kp C     &kp V    &kp B     &kp N      &kp M   &kp COMMA        &kp DOT   &kp UP    &mt RSHFT FSLH
+   &kp LCTRL       &kp LGUI &kp LALT &kp ESC   &mo 1    &kp BSPC  &kp SPACE  &mo 2   &mt RALT K_APP   &kp LEFT  &kp DOWN  &kp RIGHT 
             >;
         };
 
