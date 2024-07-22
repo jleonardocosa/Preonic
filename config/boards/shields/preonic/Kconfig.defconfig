@@ -1,0 +1,10 @@
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+
+if SHIELD_PREONIC
+
+config ZMK_KEYBOARD_NAME
+    default "Preonic"
+
+endif
